@@ -62,7 +62,7 @@
 
             <!-- Chicken -->
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioMeal" id="radioMealChicken" value="Beef"
+              <input class="form-check-input" type="radio" name="inlineRadioMeal" id="radioMealChicken" value="Chicken"
               onclick="ftnRadioMeal('Chicken')">
               <label class="form-check-label" for="radioMeal">Chicken</label>
             </div>
@@ -122,7 +122,18 @@
       // TODO: loop through the mealPreference "radio buttons"
       // so long as one of the radio buttons is selected, set mealSelected to true and break out of the loop
 
-      // TODO: using logical AND operation to ensure that name is validated == true AND mealSelected == true 
+      for (let index = 0; index < mealPreference.length; index++) {
+        if(mealPreference[index].checked){
+          mealSelected = true;
+          break;  /* prematurely end the for loop */
+        }
+      }
+
+      // TODO: using logical AND operation to ensure that name is validated == true AND mealSelected == true
+      // Same as: if(validated === true AND mealSelected === true)
+      if(validated && mealSelected) {
+        return alert("Thank you. We received your submission.");
+      }
 
       return alert("Please complete all inputs.");
 
