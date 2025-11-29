@@ -30,7 +30,6 @@ let sentence = "Hello World JS Coders";
 let splitInstances = sentence.split(" ", 3);
 console.log(splitInstances);
 
-
 // 6. Split the string based on today's date and render a custom message
 const currDate = Date.now();
 const today = new Date(currDate);
