@@ -1,0 +1,24 @@
+{
+  "name": "jsexamples",
+  "version": "1.0.0",
+  "description": "This repository contains a structured set of JavaScript learning modules covering fundamentals, DOM, forms, OOP, NPM, and testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danialzac/jsexamples_v2_danial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danialzac/jsexamples_v2_danial/issues"
+  },
+  "homepage": "https://github.com/danialzac/jsexamples_v2_danial#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
