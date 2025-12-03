@@ -286,6 +286,6 @@ Field.welcomeMessage(MSG_WELCOME);
 
 // DONE: Create instance
 const game = new Field(gameField);
-
+ 
 // DONE: Start game
 game.start();
