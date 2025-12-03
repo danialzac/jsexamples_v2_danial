@@ -1,3 +1,4 @@
+
 //COMPLETED FIND MY HAT HAT GAME
 const prompt = require("prompt-sync")({ sigint: true });
 
